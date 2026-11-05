@@ -1,0 +1,22 @@
+{
+  "name": "firestore-rules-probe",
+  "version": "1.0.0",
+  "description": "Test deployed Firestore rules against the live REST API.",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "firestore-rules-probe": "./probe.mjs"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "author": "Antonio Joab Garibay",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrChinoo/firestore-rules-probe.git"
+  }
+}
